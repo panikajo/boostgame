@@ -54,7 +54,7 @@
     transition: all .25s ease-in-out
 }
 body .digiseller-body {
-    background: #f7f7fa;
+    background: url(../img/bg-body.jpg);
     color: #333;
     cursor: auto;
     font-family: "Open_Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -80,14 +80,7 @@ body .digiseller-body {
     font-size: 13px;
     font-weight: 500
 }
-header.digiseller-row+.digiseller-row {
-    position: relative;
-    width: 100%;
-    max-width: none;
-    background-color: #fff;
-    border-top: 1px solid #ededed;
-    border-bottom: 1px solid #ededed
-}
+
 header.digiseller-row+.digiseller-row nav {
     max-width: 990px;
     margin: 0 auto;
@@ -163,11 +156,7 @@ span.digiseller-body a {
 .digiseller-top-bar .digiseller-hidden {
     display: block!important
 }
-.digiseller-body header.digiseller-row {
-    padding: 25px 0;
-    background-color: #fff;
-    max-width: none
-}
+
 .digiseller-body header.digiseller-row>.digiseller-columns {
     max-width: 1000px;
     margin: 0 auto;
@@ -454,7 +443,7 @@ span.digiseller-body .digiseller-prockrutka ul.digiseller-details-product li {
 }
 .digiseller-body .digiseller-breadcrumbs .digiseller-prev-next.digiseller-prev-disabled:hover {
     cursor: default;
-    background: transparent url(http://shop.digiseller.ru/img/img2/arrow-left-digiseller.png) no-repeat
+    background: transparent url(../img/arrow-left-modal-digiseller.png) no-repeat
 }
 .digiseller-body .digiseller-breadcrumbs .digiseller-prev-next.digiseller-next-disabled:hover {
     cursor: default;
@@ -1769,7 +1758,7 @@ table .digiseller-wrapper-product .digiseller-description-buyButton-empty a, tab
     width: 100%
 }
 .digiseller-popup-main .digiseller-reveal-modal .digiseller-popup-img-prev {
-    background: transparent url(http://shop.digiseller.ru/img/img2/arrow-left-modal-digiseller.png) no-repeat 0 50%;
+    background: transparent url(../img/arrow-left-modal-digiseller.png) no-repeat 0 50%;
     height: 100%;
     position: absolute;
     top: 0%;
@@ -1779,7 +1768,7 @@ table .digiseller-wrapper-product .digiseller-description-buyButton-empty a, tab
     z-index: 5
 }
 .digiseller-popup-main .digiseller-reveal-modal .digiseller-popup-img-next {
-    background: transparent url(http://shop.digiseller.ru/img/img2/arrow-right-modal-digiseller.png) no-repeat 100% 50%;
+    background: transparent url(../img/arrow-right-modal-digiseller.png no-repeat 100% 50%;
     height: 100%;
     position: absolute;
     top: 0%;
@@ -1795,7 +1784,7 @@ table .digiseller-wrapper-product .digiseller-description-buyButton-empty a, tab
     background: transparent url(http://shop.digiseller.ru/img/img2/arrow-right-modal-digiseller-hover.png) no-repeat 100% 50%
 }
 .digiseller-popup-main .digiseller-reveal-modal.digiseller-reveal-video .digiseller-popup-img-prev {
-    background: transparent url(http://shop.digiseller.ru/img/img2/arrow-left-modal-digiseller.png) no-repeat 0 50%;
+    background: transparent url(../img/arrow-left-modal-digiseller.png) no-repeat 0 50%;
     height: 100%;
     position: absolute;
     top: 0%;
@@ -1803,7 +1792,7 @@ table .digiseller-wrapper-product .digiseller-description-buyButton-empty a, tab
     left: 5px
 }
 .digiseller-popup-main .digiseller-reveal-modal.digiseller-reveal-video .digiseller-popup-img-next {
-    background: transparent url(http://shop.digiseller.ru/img/img2/arrow-right-modal-digiseller.png) no-repeat 0 50%;
+    background: transparent url(../img/arrow-right-modal-digiseller.png) no-repeat 0 50%;
     height: 100%;
     position: absolute;
     top: 0%;
@@ -7050,4 +7039,4 @@ div.digiseller-buy-standalone ul.digiseller-pricing-table li.digiseller-bullet-i
 .digiseller-pricing-table .digiseller-calc-points-wrapper .digiseller-calc-points-value {
     top: 25px
 }
-/* Ð±Ð°Ð·Ð¾Ð²Ñ‹Ð¹ css Ð·Ð°ÐºÐ¾Ð½Ñ‡Ð¸Ð»ÑÑ */
+/* ÃÂ±ÃÂ°ÃÂ·ÃÂ¾ÃÂ²Ã‘â€¹ÃÂ¹ css ÃÂ·ÃÂ°ÃÂºÃÂ¾ÃÂ½Ã‘â€¡ÃÂ¸ÃÂ»Ã‘ÂÃ‘Â */
