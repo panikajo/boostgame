@@ -1029,7 +1029,7 @@ ul li:before {
   -moz-osx-font-smoothing: grayscale;
   display: block;
   content: "\f10c";
-  color: #ff7149;
+  color: #fff;
   font-size: 10px;
   position: absolute;
   left: -28px;
@@ -1478,7 +1478,7 @@ fieldset[disabled] .tagcloud > a.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #ff7149;
+  background-color: #3d76ed;
   border-color: transparent;
   -webkit-transition: 0.15s;
   -o-transition: 0.15s;
@@ -1491,7 +1491,7 @@ fieldset[disabled] .tagcloud > a.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #ff7d58;
+  background-color: #3d76ed;
   border-color: rgba(8, 8, 8, 0);
 }
 .btn-primary:active,
@@ -6377,7 +6377,7 @@ img.mfp-img {
   background: -webkit-linear-gradient(left, #ff7149 10%, rgba(255, 255, 255, 0) 42%);
   background: -o-linear-gradient(left, #ff7149 10%, rgba(255, 255, 255, 0) 42%);
   background: -ms-linear-gradient(left, #ff7149 10%, rgba(255, 255, 255, 0) 42%);
-  background: linear-gradient(to right, #ff7149 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #3f51b5 10%, rgba(255, 255, 255, 0) 42%);
   position: relative;
   -webkit-animation: load3 1.4s infinite linear;
   -o-animation: load3 1.4s infinite linear;
@@ -6386,7 +6386,7 @@ img.mfp-img {
 .loader:before {
   width: 50%;
   height: 50%;
-  background: #ff7149;
+  background: #3f51b5;
   border-radius: 100% 0 0 0;
   position: absolute;
   top: 0;
@@ -6432,8 +6432,6 @@ img.mfp-img {
 */
 /* 30.1. Top Wrapper */
 .top-wrapper {
-  background-color: #36274c;
-  background-image: url(../images/bg1.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -6477,7 +6475,7 @@ img.mfp-img {
 }
 .no-mobile .header.affix {
   padding: 10px 0;
-  background: rgba(54, 39, 76, 0.95);
+  background: #0f3e68;
 }
 @media (max-width: 767px) {
   .no-mobile .header.affix {
@@ -6922,11 +6920,11 @@ img.mfp-img {
     font-family: 'Exo 2', sans-serif;
   }
   .fhmm .fhmm-content ul li > a:hover {
-    background: #f9fafb;
+    background: #a8d8ee;
     text-decoration: none;
   }
   .fhmm .fhmm-content ul li.active > a {
-    background: #f9fafb;
+    background: #000;
   }
   .fhmm .fhmm-content ul li + li > a {
     border-top: 1px solid #d2d2dd;
@@ -6971,9 +6969,9 @@ img.mfp-img {
   .fhmm .title {
     padding: 15px 30px 19px 30px !important;
     margin: 0 -15px;
-    border-bottom: 2px solid #836aa0;
+    border-bottom: 2px solid #0f3e68;
     padding-top: 10px;
-    color: #746981;
+    color: #0f3e68;
   }
 }
 @media (max-width: 991px) {
@@ -7000,7 +6998,7 @@ img.mfp-img {
   float: right;
   border-radius: 50%;
   margin-top: -35px;
-  border: 2px solid #836aa0 !important;
+  border: 2px solid #333 !important;
 }
 @media (min-width: 992px) {
   .dropdown-toggle__caret {
@@ -7010,7 +7008,7 @@ img.mfp-img {
 }
 .dropdown-toggle__caret .caret {
   margin-left: 0;
-  border-top-color: #ff7149;
+  border-top-color: #000;
 }
 .dropdown-toggle__caret:hover,
 .dropdown-toggle__caret:focus {
@@ -7426,7 +7424,7 @@ img.mfp-img {
 .tp-bullets.simplebullets .bullet.selected {
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #ff7149 !important;
+  background: #0f3e68 !important;
 }
 /* Arrows (prev/next) */
 .tparrows.default.round {
@@ -7437,7 +7435,7 @@ img.mfp-img {
   vertical-align: middle;
   background: none !important;
   z-index: 98 !important;
-  border: 2px solid #836aa0;
+  border: 2px solid #777777;
 }
 @media (min-width: 768px) {
   .tparrows.default.round {
@@ -7818,7 +7816,7 @@ img.mfp-img {
 // --------------------------------------------------
 */
 .footer {
-  background-color: #36274c;
+  background-color: #0b307f;
   background-image: url(../images/bg-footer.jpg);
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -7835,7 +7833,7 @@ img.mfp-img {
 }
 @media (min-width: 992px) {
   .footer .footer-inner {
-    padding-top: 130px;
+    padding-top: 100px;
   }
 }
 .footer .footer-inner:before {
@@ -7880,7 +7878,7 @@ img.mfp-img {
   display: block;
   width: 40px;
   height: 40px;
-  border: 1px solid #836aa0;
+  border: 1px solid #3f51b5;
   font-size: 14px;
   line-height: 38px;
   color: #ffffff;
@@ -7908,8 +7906,8 @@ img.mfp-img {
 }
 .footer-social-links > li > a:hover {
   color: #ffffff;
-  background-color: #ff7149;
-  border-color: #ff7149;
+  background-color: #0d3281;
+  border-color: #000000;
 }
 .footer-social-links.footer-social-links__rounded > li > a {
   border-radius: 50%;
@@ -7954,7 +7952,7 @@ img.mfp-img {
   .footer-text div[class^="col-"]:after {
     width: 4px;
     height: 4px;
-    background: #ff7149;
+    background: #fff;
     top: -2px;
     margin-left: -2px;
   }
@@ -9146,7 +9144,7 @@ img.mfp-img {
   width: 26px;
   height: 48px;
   right: 0px;
-  background: url(http://1.bp.blogspot.com/-UR9I7YEuEUY/VXIJn8MrBPI/AAAAAAAAKRE/qZObHBd5zIo/s1600/rocket.png) no-repeat 50% 0;
+  background: url(../img/raketa.png) no-repeat 50% 0;
   opacity: 0;
   -webkit-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -webkit-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
   -moz-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -moz-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
@@ -9157,7 +9155,7 @@ img.mfp-img {
   display: block;
   margin-top: 48px;
   height: 14px;
-  background: url(http://1.bp.blogspot.com/-UR9I7YEuEUY/VXIJn8MrBPI/AAAAAAAAKRE/qZObHBd5zIo/s1600/rocket.png) no-repeat 50% -48px;
+  background: url(../img/raketa.png) no-repeat 50% -48px;
   opacity: .5;
   -webkit-transition: -webkit-transform .2s;
   -moz-transition: -moz-transform .2s;
@@ -9189,7 +9187,7 @@ img.mfp-img {
   -webkit-transform: translateY(-800px);
   -moz-transform: translateY(-800px);
   -ms-transform: translateY(-800px);
-  -webkit-transform: translateY(-800px); -ms-transform: translateY(-800px);transform: translateY(-800px);
+  transform: translateY(-800px);
   pointer-events: none
 }
 
@@ -9197,7 +9195,5 @@ img.mfp-img {
   background-position: 50% 100%;
   -webkit-transform: scale(1.4, 3.2);
   -moz-transform: scale(1.4, 3.2);
-  -webkit-transform: scale(1.4, 3.2)
-; -ms-transform: scale(1.4, 3.2)
-;transform: scale(1.4, 3.2)
+  transform: scale(1.4, 3.2)
 }

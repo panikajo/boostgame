@@ -4,7 +4,7 @@
 
 	<!-- Basic Page Needs
 	================================================== -->
-	<title>Rocket — Creative Multipurpose HTML Template</title>
+	<title>BoosTGame.Ru</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta charset="utf-8">
@@ -45,7 +45,10 @@
 
 	<!-- Head Libs -->
 	<script src="vendor/modernizr.js"></script>
-	
+
+	<!-- Slow Scroll -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -75,7 +78,7 @@
 								</button>
 								<!-- Logo -->
 								<div class="logo scroll-local">
-									<a href="#top"><img src="images/logo.png" alt="Rocket"></a> 
+									<a href="#top"><img src="images/logo.png" alt="Rocket"></a>
 									<!-- <h1><a href="index.html">Rocket</a></h1> -->
 								</div>
 								<!-- Logo / End -->
@@ -83,14 +86,85 @@
 
 							<div id="main-nav" class="navbar-collapse collapse">
 								<ul class="nav navbar-nav scroll-local">
-									<li><a href="#top">Home</a></li>
-									<li><a href="#section-about">About</a></li>
-									<li><a href="#section-gallery">Gallery</a></li>
-									<li><a href="#section-products">Products</a></li>
-									<li><a href="#section-pricing">Pricing</a></li>
-									<li><a href="#section-blog">Blog</a></li>
-									<li><a href="#section-contacts">Contacts</a></li>
-									<li><a href="intro.html">All Demos</a></li>
+									<li><a href="./">Главная</a></li>
+									<li><a href="#section-about">О нас</a></li>
+									<li><a href="#section-gallery">Работа</a></li>
+									<li><a href="#section-products">Гарантии</a></li>
+									<li><a href="#section-pricing">FAQ</a></li>
+									<li><a href="#section-blog">Услуги</a></li>
+									<li><a href="#section-contacts">Контакты</a></li>
+									<li class="dropdown fhmm-fw">
+										<a href="#" data-toggle="dropdown" class="dropdown-toggle disabled dropdown-toggle__caret-holder" style="text-shadow:1px 1px 1px black">Услуги</a>
+										<a class="dropdown-toggle dropdown-toggle__caret"><b class="caret"></b></a>
+										<ul class="dropdown-menu fullwidth">
+											<li class="fhmm-content withoutdesc">
+												<div class="row">
+													<div class="col-sm-4">
+														<h3 class="title"> <img src="https://raw.github.com/paralin/Dota2/master/Resources/Misc/dota2_logo.jpg" height="24px" width="24px"> DotA 2</h3>
+														<ul role="menu">
+															<li><a href="./#!digiseller/articles/66332"><i class="fa fa-chevron-circle-right"></i> Купить аккаунт дота 2</a></li>
+															<li><a href="./#!digiseller/articles/75479"><i class="fa fa-chevron-circle-right"></i> Заказать буст соло ММР</a></li>
+															<li><a href="./#!digiseller/articles/75479"><i class="fa fa-chevron-circle-right"></i> Заказать буст пати ММР</a></li>
+															<li>
+																<a href="./#!digiseller/detail/2238402"><i class="fa fa-chevron-circle-right"></i> Заказать калибровку</a>
+
+																<span class="label label-success" style="position:absolute;top:15px;right:0;-webkit-transform: rotate(45deg)">
+                                                                TOP
+                                                            </span></li>
+															<li><a href="./#!digiseller/detail/2382179"><i class="fa fa-chevron-circle-right"></i> Слить лоу приорити</a></li>
+															<li>
+																<a href="./#!digiseller/detail/2280151"><i class="fa fa-book"></i> Обучение от бустеров</a>
+																<span class="label label-success" style="position:absolute;top:15px;right:0;-webkit-transform: rotate(45deg)">
+                                                                NEW
+                                                            </span>
+															</li>
+															<!-- <li><a href="/ru/services/buy-accounts"><i class="fa fa-money"></i> Продать нам аккаунт DotA 2</a></li> -->
+														</ul><!-- end drop down menu -->
+													</div>
+													<div class="col-sm-4">
+														<h3 class="title"> <img src="./img/cs-global-logo.png" height="24px" width="24px"> CS:GO</h3>
+														<ul role="menu">
+															<!--<li><a href="/ru/csgo-accounts"><i class="fa fa-chevron-circle-right"></i> Купить аккаунт CS:GO</a></li>
+															<li><a href="/ru/csgo-boost"><i class="fa fa-chevron-circle-right"></i> Заказать буст ранга</a></li>-->
+															<li><a href="./#!digiseller/detail/2358315"><i class="fa fa-chevron-circle-right"></i> Заказать калибровку ранга</a></li>
+															<!--<li><a href="/ru/services/buy-accounts-csgo"><i class="fa fa-money"></i> Продать нам аккаунт CS:GO</a></li>-->
+
+														</ul><!-- end drop down menu -->
+													</div>
+													<div class="col-sm-4">
+														<h3 class="title">
+															<i class="fa fa-cube" style="color:#FF7149"></i>
+															Здесь что-то будет :)                                                    </h3>
+														<!-- <ul role="menu">
+															<li>
+																<a href="/ru/lottery"><i class="fa fa-cube"></i>
+																	Аккаунты DotA 2                                                            </a>
+															</li>
+															<li>
+																<a href="/site/under-construction"><i class="fa fa-cube"></i>
+																	Аккаунты CS:GO                                                            </a>
+															</li>
+														</ul>
+														<h3 class="title">
+														</h3> -->
+													<!--	<ul role="menu">
+															<li>
+																<a href="http://shop.anylvl.com">
+																	<i class="fa fa-chevron-circle-right"></i>
+																	Купить крутую одежду с принтами
+																	<label class="label label-warning">
+																		shop.anylvl.com
+																	</label>
+																</a>
+															</li>
+														</ul> -->
+														<!-- end drop down menu -->
+													</div>
+
+												</div><!-- end row -->
+											</li><!-- end grid demo -->
+										</ul><!-- end drop down menu -->
+									</li>
 								</ul><!-- end nav navbar-nav -->
 							</div><!-- end #main-nav -->
 
@@ -98,7 +172,7 @@
 						<!-- Navigation / End -->
 					</div>
 				</div>
-				
+
 			</header>
 			<!-- Header / End -->
 
@@ -118,20 +192,11 @@
 								<!-- LAYERS -->
 						
 								<!-- LAYER NR. 1 -->
-								<div class="tp-caption rocket_large_white customin ltl tp-resizeme"
-									data-x="center" data-hoffset="0"
-									data-y="center" data-voffset="-197"
-									data-customin="x:5;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:5;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-									data-speed="500"
-									data-start="500"
-									data-easing="Power4.easeIn"
-									data-splitin="chars"
-                  data-splitout="none"
-									data-elementdelay="0.1"
-                  data-endelementdelay="0.1"
-									data-endspeed="1000"
-									style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Awesome Theme
-								</div>
+                                <div class="tp-caption rocket_medium_white_mw customin ltl tp-resizeme text-center start" data-x="center" data-hoffset="0" data-y="center" data-voffset="-197" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1000" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1300" data-endeasing="Power4.easeIn" style="z-index: 10; white-space: nowrap; display: inline-block; left: 439px; top: 54.5px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                                    <div class="row text-center">
+                                        <img src="./img/dota2_main_logo_large.png" height="80" style="width: 292px; height: 80px;">
+                                    </div>
+                                </div>
 
 								<!-- LAYER NR. 2 -->
 								<div class="tp-caption rocket_verysmall_white_mw text-center customin ltl tp-resizeme"
@@ -183,7 +248,7 @@
 									data-endspeed="1300"
 									data-endeasing="Power4.easeIn"
 									style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;">
-									<a href="#" class="btn btn-primary btn-has-icon icon-right"><i class="fa fa-shopping-cart"></i> Purchase Now</a>
+									<a href="#" class="btn btn-primary btn-has-icon icon-right"><i class="fa fa-gamepad"></i> Purchase Now</a>
 								</div>
 						
 							</li>
@@ -198,20 +263,11 @@
 								<!-- LAYERS -->
 						
 								<!-- LAYER NR. 1 -->
-								<div class="tp-caption rocket_large_white customin ltl tp-resizeme"
-									data-x="center" data-hoffset="0"
-									data-y="center" data-voffset="-197"
-									data-customin="x:5;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:5;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-									data-speed="500"
-									data-start="500"
-									data-easing="Power4.easeIn"
-									data-splitin="chars"
-                  data-splitout="none"
-									data-elementdelay="0.1"
-                  data-endelementdelay="0.1"
-									data-endspeed="1000"
-									style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Bootstrap 3
-								</div>
+                                <div class="tp-caption rocket_medium_white_mw customin ltl tp-resizeme text-center start" data-x="center" data-hoffset="0" data-y="center" data-voffset="-197" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1000" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1300" data-endeasing="Power4.easeIn" style="z-index: 10; white-space: nowrap; display: inline-block; left: 335px; top: -30.5px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                                    <div class="row text-center">
+                                        <img src="./img/csgo_main_logo.png" height="250" style="width: 500px; height: 250px;">
+                                    </div>
+                                </div>
 
 								<!-- LAYER NR. 2 -->
 								<div class="tp-caption rocket_verysmall_white_mw text-center customin ltl tp-resizeme"
@@ -227,7 +283,7 @@
                   data-endelementdelay="0.1"
 									data-endspeed="1000"
 									data-endeasing="Power4.easeIn"
-									style="z-index: 10; max-width: 770px; max-height: auto; white-space: nowrap;">The template is fully prepared for development, converting to WordPress, Joomla, Drupal and any other CMS. Template has responsive design build on Bootstrap 3, 1170px Grid. 
+									style="z-index: 10; max-width: 770px; max-height: auto; white-space: nowrap;">The template is fully prepared for development, converting to WordPress, Joomla, Drupal and any other CMS. Template has responsive design build on Bootstrap 3, 1170px Grid.
 								</div>
 
 								<!-- LAYER NR. 3 -->
@@ -263,90 +319,13 @@
 									data-endspeed="1300"
 									data-endeasing="Power4.easeIn"
 									style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;">
-									<a href="#" class="btn btn-primary btn-has-icon icon-right"><i class="fa fa-shopping-cart"></i> Purchase Now</a>
+									<a href="#" class="btn btn-primary btn-has-icon icon-right"><i class="fa fa-gamepad"></i> Purchase Now</a>
 								</div>
 						
 							</li>
 
 
-							<!-- SLIDE #1  -->
-							<li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-delay="6000" >
-
-								<!-- MAIN IMAGE -->
-								<img src="images/transparent.png" height="10" width="10" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-
-								<!-- LAYERS -->
-						
-								<!-- LAYER NR. 1 -->
-								<div class="tp-caption rocket_large_white customin ltl tp-resizeme"
-									data-x="center" data-hoffset="0"
-									data-y="center" data-voffset="-197"
-									data-customin="x:5;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:5;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-									data-speed="500"
-									data-start="500"
-									data-easing="Power4.easeIn"
-									data-splitin="chars"
-                  data-splitout="none"
-									data-elementdelay="0.1"
-                  data-endelementdelay="0.1"
-									data-endspeed="1000"
-									style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">40+ Pages
-								</div>
-
-								<!-- LAYER NR. 2 -->
-								<div class="tp-caption rocket_verysmall_white_mw text-center customin ltl tp-resizeme"
-									data-x="center" data-hoffset="0"
-									data-y="center" data-voffset="-80"
-									data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-									data-speed="800"
-									data-start="1800"
-									data-easing="easeOutQuad"
-                  data-splitin="none"
-                  data-splitout="none"
-									data-elementdelay="0.01"
-                  data-endelementdelay="0.1"
-									data-endspeed="1000"
-									data-endeasing="Power4.easeIn"
-									style="z-index: 10; max-width: 770px; max-height: auto; white-space: nowrap;">Rocket HTML Template can accomodate for all kinds of purposes: Web App, Mobile Development, Start Up Project, Portfolio, Landing Page or your own product.
-								</div>
-
-								<!-- LAYER NR. 3 -->
-								<div class="tp-caption rocket_verysmall_white_mw customin ltl tp-resizeme"
-									data-x="center" data-hoffset="-130"
-									data-y="center" data-voffset="39"
-									data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-									data-speed="800"
-									data-start="2000"
-									data-easing="easeOutQuad"
-                  data-splitin="none"
-                  data-splitout="none"
-									data-elementdelay="0.01"
-                  data-endelementdelay="0.1"
-									data-endspeed="1300"
-									data-endeasing="Power4.easeIn"
-									style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;">
-									<a href="#" class="btn btn-primary btn-has-icon"><i class="fa fa-trophy"></i> View about us</a>
-								</div>
-
-								<!-- LAYER NR. 4 -->
-								<div class="tp-caption rocket_verysmall_white_mw customin ltl tp-resizeme"
-									data-x="center" data-hoffset="130"
-									data-y="center" data-voffset="39"
-									data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-									data-speed="800"
-									data-start="2100"
-									data-easing="easeOutQuad"
-                  data-splitin="none"
-                  data-splitout="none"
-									data-elementdelay="0.01"
-                  data-endelementdelay="0.1"
-									data-endspeed="1300"
-									data-endeasing="Power4.easeIn"
-									style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;">
-									<a href="#" class="btn btn-primary btn-has-icon icon-right"><i class="fa fa-shopping-cart"></i> Purchase Now</a>
-								</div>
-						
-							</li>
+							<!-- SLIDE #3  -->
 
 						</ul>
 					</div>
@@ -403,7 +382,7 @@
 								thanks for watching
 							</div>
 							<div class="col-sm-4 col-md-4">
-								By <a href="#">wwwebinvader</a> <i class="fa fa-thumbs-o-up"></i>
+								By <a href="#top">wwwebinvader</a> <i class="fa fa-thumbs-o-up"></i>
 							</div>
 						</div>
 					</div>
@@ -482,38 +461,73 @@
 	   });
 	</script>
 	<script>
-        jQuery(window).scroll(function(){
-            if(jQuery(window).scrollTop()<50){
+        jQuery(window).scroll(function() {
+            if (jQuery(window).scrollTop() < 50) {
                 jQuery('#rocketmeluncur').slideUp(500);
-            }else{
+            } else {
                 jQuery('#rocketmeluncur').slideDown(500);
             }
             var ftrocketmeluncur = jQuery("#ft")[0] ? jQuery("#ft")[0] : jQuery(document.body)[0];
-            var scrolltoprocketmeluncur = ('rocketmeluncur');
+            var scrolltoprocketmeluncur = $('rocketmeluncur');
             var viewPortHeightrocketmeluncur = parseInt(document.documentElement.clientHeight);
             var scrollHeightrocketmeluncur = parseInt(document.body.getBoundingClientRect().top);
             var basewrocketmeluncur = parseInt(ftrocketmeluncur.clientWidth);
             var swrocketmeluncur = scrolltoprocketmeluncur.clientWidth;
             if (basewrocketmeluncur < 1000) {
-                var leftrocketmeluncur = parseInt(fetchOffset(ftrocketmeluncur)['left']);
+                var leftrocketmeluncur = parseInt(ftrocketmeluncur.offsetLeft);
                 leftrocketmeluncur = leftrocketmeluncur < swrocketmeluncur ? leftrocketmeluncur * 2 - swrocketmeluncur : leftrocketmeluncur;
-                scrolltoprocketmeluncur.style.left = ( basewrocketmeluncur + leftrocketmeluncur ) + 'px';
+                scrolltoprocketmeluncur.css('left', (basewrocketmeluncur + leftrocketmeluncur + "px"));
             } else {
-                scrolltoprocketmeluncur.style.right = '10px';
+                scrolltoprocketmeluncur.css('left', 'auto');
+                scrolltoprocketmeluncur.css('right', '10px');
             }
-        })
+        });
 
-        jQuery('#rocketmeluncur').click(function(){
-            jQuery("html, body").animate({ scrollTop: '0px',display:'none'},{
+        jQuery('#rocketmeluncur').click(function() {
+            jQuery("html, body").animate({
+                scrollTop: '0px',
+                display: 'none'
+            }, {
                 duration: 600,
                 easing: 'linear'
             });
 
             var self = this;
-            this.className += ' '+"launchrocket";
-            setTimeout(function(){
+            this.className += ' ' + "launchrocket";
+            setTimeout(function() {
                 self.className = 'showrocket';
-            },800)
+            }, 800);
+        });
+	</script>
+
+
+	<!--Sloww scroll -->
+	<script>
+        $(document).ready(function(){
+            // Add scrollspy to <body>
+            $('body').scrollspy({target: ".navbar", offset: 50});
+
+            // Add smooth scrolling on all links inside the navbar
+            $("#main-nav a").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $("#digiseller-header").offset().top
+                    }, 800, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }  // End if
+            });
         });
 	</script>
 
