@@ -354,7 +354,7 @@ a.thumbnail:focus,
 a.wp-caption:focus,
 a.thumbnail.active,
 a.wp-caption.active {
-  border-color: #ff7149;
+  border-color: #33356e;
 }
 .thumbnail .caption,
 .wp-caption .caption,
@@ -401,7 +401,7 @@ a.thumbnail:hover .thumbnail-overlay {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #4d306e;
+  background: #75cb9b;
   opacity: 0.7;
   z-index: 1;
 }
@@ -1400,7 +1400,7 @@ fieldset[disabled] .tagcloud > a {
 /* 4.2. Alternate buttons */
 .btn-default,
 .tagcloud > a {
-  color: #4d306e;
+  color: #33356e;
   background-color: #e6e8ec;
   border-color: #d2d2dd;
   -webkit-transition: 0.15s;
@@ -1420,7 +1420,7 @@ fieldset[disabled] .tagcloud > a {
 .tagcloud > a.active,
 .open > .dropdown-toggle.btn-default,
 .open > .dropdown-toggle.tagcloud > a {
-  color: #4d306e;
+  color: #337ab7;
   background-color: #eff0f3;
   border-color: #dbdbe4;
 }
@@ -1862,9 +1862,9 @@ fieldset[disabled] .btn-link:focus {
   transition: 0.2s;
 }
 .link-circle:hover {
-  background: #ff7149;
+  background: #33356e;
   color: #fff;
-  border-color: #ff7149;
+  border-color: #33356e;
 }
 /*
 // 5. Tabs
@@ -3064,7 +3064,7 @@ fieldset[disabled] .btn-link:focus {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: #ff7149;
+  background: #33356e;
   color: #fff;
   line-height: 50px;
   text-align: center;
@@ -3073,7 +3073,7 @@ fieldset[disabled] .btn-link:focus {
   transition: 0.15s;
 }
 .social-icons > li > a:hover {
-  background: #ff8562;
+  background: #337ab7;
 }
 /*
 // 15. Form Elements
@@ -4004,13 +4004,13 @@ input[type="number"] {
   opacity: 1;
   text-decoration: none;
 }
-/* Styling Pagination*/
-.owl-theme .owl-controls .owl-dot {
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-  /*IE7 life-saver */
-}
+  /* Styling Pagination*/
+  .owl-theme .owl-controls .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    /*IE7 life-saver */
+  }
 .owl-theme .owl-controls .owl-dot span {
   display: block;
   width: 12px;
@@ -4292,7 +4292,7 @@ input[type="number"] {
 .pricing-slider .owl-controls .owl-dot.active span,
 .team-slider .owl-controls.clickable .owl-dot:hover span,
 .pricing-slider .owl-controls.clickable .owl-dot:hover span {
-  background: #ff7149;
+  background: #fff;
 }
 .team-slider .owl-controls .owl-nav div,
 .pricing-slider .owl-controls .owl-nav div {
