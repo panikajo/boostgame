@@ -922,18 +922,6 @@ p {
 .section-title-wrapper.section-title-wrapper__sm {
   margin-bottom: 3em;
 }
-.section-title-wrapper:before,
-.section-title-wrapper:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  width: 5px;
-  height: 5px;
-  background: #ff7149;
-  border-radius: 50%;
-}
 .section-title-wrapper:before {
   margin-left: -16px;
 }
@@ -944,22 +932,10 @@ p {
   position: relative;
   padding-bottom: 12px;
 }
-.section-title-inner:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  width: 5px;
-  height: 5px;
-  background: #ff7149;
-  border-radius: 50%;
-  margin-left: -2px;
-}
 .section-title {
   font-size: 21px;
   text-align: center;
-  color: #4d306e;
+  color: #33356e;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   margin-bottom: .2em;
